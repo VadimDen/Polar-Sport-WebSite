@@ -1,0 +1,32 @@
+.clients {
+    margin-bottom: 48px;
+    &-item {
+        margin-top: 60px;
+        display: flex;
+        &__img {
+            width: 169px;
+            height: 169px;
+            margin-right: 61px;
+        }
+        &__text {
+            max-width: 680px;
+        }
+        &__title {
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 18px;
+        }
+        &__count {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 22px;
+            color: #646464;
+            margin-bottom: 10px;
+        }
+        &__comment {
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+}
