@@ -10,6 +10,13 @@
     }
 }
 @media (max-width: 980px) {
+    .catalog {
+        &__content {
+            width: 620px;
+            margin: 0 auto;
+            margin-top: 40px;
+        }
+    }
     
 }
 @media (max-width: 869px) {
@@ -33,13 +40,45 @@
             display: none;
         }
     }
+    .catalog {
+        &__content {
+            width: 99%;
+        }
+        &-item {
+            width: 49%;
+            margin-bottom: 10px;
+        }
+    }
 }
 @media (max-width: 574px) {
     .benefits {
+        &__icons {
+            margin-top: 0;
+        }
         &__item {
             &:nth-child(2) {
                 margin-top: 60px;
             }
+            img {
+                margin-bottom: 20px;
+            }
+        }
+    }
+    .catalog {
+        &__tabs {
+            max-width: 90%;
+            flex-direction: column;
+            margin-left: 21px;
+            margin-top: 25px;
+        }
+        &__tab {
+            height: 34px;
+            margin: 0 0 10px 0;
+            line-height: 32px;
+            font-size: 16px;
+        }
+        &__content {
+            margin-top: 25px;
         }
     }
 }
