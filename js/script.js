@@ -33,6 +33,23 @@ $(document).ready(function(){
     })
   }
 
+  $(".clients-item__more a").on("click", function(e) {
+    e.preventDefault();
+    var $this = $(this); 
+    var $content = $this.parent().prev("div.clients-item__comment");
+    var linkText = $this.text().toUpperCase();    
+    
+    if(linkText === "БОЛЬШЕ"){
+        linkText = "скрыть";
+        $content.switchClass("clients-item__comment_hidden", "clients-item__comment_visible", 400);
+    } else {
+        linkText = "больше";
+        $content.switchClass("clients-item__comment_visible", "clients-item__comment_hidden", 400);
+    };
+
+    $this.text(linkText);
+    });
+
   toggleSlide('.catalog-item__link');
   toggleSlide('.catalog-item__back');
 
