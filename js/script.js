@@ -50,6 +50,8 @@ $(document).ready(function(){
     $this.text(linkText);
     });
 
+    
+
   toggleSlide('.catalog-item__link');
   toggleSlide('.catalog-item__back');
 
