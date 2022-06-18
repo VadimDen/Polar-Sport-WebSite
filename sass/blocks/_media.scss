@@ -183,6 +183,12 @@
 }
 
 @media (max-width: 500px) {
+    .footer {
+        &__info {
+            width: 90%;
+            padding: 35px;
+        }
+    }
     .button {
         &_main {
             margin-top: 20px;
