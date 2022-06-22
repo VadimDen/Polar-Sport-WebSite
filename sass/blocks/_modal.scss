@@ -45,6 +45,19 @@
     &_mini {
         min-height: 143px;
     }
+    input.error {
+        border: 1px solid red;
+        &:focus {
+            border: none;
+        }
+    }
+    label.error {
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 15px;
+    }
 }
 
 #consultation, #order, #thanks {
