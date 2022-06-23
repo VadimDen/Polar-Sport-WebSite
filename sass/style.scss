@@ -1,5 +1,5 @@
 @import "base/_variables";
-
+@import "base/animations";
 * {
   font-family: 'Roboto', sans-serif;
 }
@@ -19,4 +19,5 @@
 @import "blocks/clients";
 @import "blocks/footer";
 @import "blocks/modal";
+@import "blocks/pageup";
 @import "blocks/media";
